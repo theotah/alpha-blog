@@ -9,6 +9,7 @@ Rails.application.routes.draw do
 #this is the root route (root_path)
 root 'pages#home'
 
+
 #These are routes
 get 'pages/home', to: 'pages#home'
 get 'pages/about', to: 'pages#about'
